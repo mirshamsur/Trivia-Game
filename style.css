@@ -1,0 +1,79 @@
+.container{
+	width: 410px;
+	height: 400px;
+	border: 1px solid black;
+	margin: auto;
+	border-radius: 7px;
+	background:pink;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items:center;
+}
+
+.fit {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.center {
+	display: block;
+	margin:auto;
+}
+
+button{
+	border-radius: 4px;
+	border: none;
+	color:#000000;
+	text-align: center;
+	font-family: monospace;
+	font-size: 16px;
+	padding: 20px;
+	width:300px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+#startButton{
+	 background-color:brown;
+	 font-family: monospace;
+	 font-size: 20px;
+}
+
+#buttonA{
+	background-color: red;
+}
+
+#buttonB{
+	background-color: yellow;
+}
+
+#buttonC{
+	background-color: teal;
+}
+
+#buttonD{
+	background-color: green;
+}
+
+.time{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+
+.question{
+	font-family: monospace;
+	font-size: 18px;
+}
+
+h1{
+	font-family: 'Signika', sans-serif;
+	color:purple;
+	font-style: italic;
+	text-align: center;
+	font-size:20px;
+}
+
+
